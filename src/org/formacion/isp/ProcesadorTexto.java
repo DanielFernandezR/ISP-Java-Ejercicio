@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class ProcesadorTexto implements ProcesarSinIdiomas{
+public class ProcesadorTexto implements ProcesarSinIdiomas, ProcesarConIdiomas{
 
 	private List<String> texto = new ArrayList<>();
 	
